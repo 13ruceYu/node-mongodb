@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ts-node": "ts-node index.ts"
+    "ts-node": "ts-node mongoose.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mongodb": "^4.13.0"
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.3"
   },
   "devDependencies": {
     "ts-node": "^10.9.1",
