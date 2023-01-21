@@ -4,16 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ts-node": "ts-node mongoose.ts"
+    "ts-node": "ts-node redis.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ioredis": "^5.2.5",
     "mongodb": "^4.13.0",
     "mongoose": "^6.8.3"
   },
   "devDependencies": {
+    "@types/ioredis": "^5.0.0",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.4"
   }
